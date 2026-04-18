@@ -10,6 +10,10 @@ description: >
   (strategy preference collapse, premature escalation, grief-flattening),
   not clinical intervention. Not a substitute for professional mental health
   support.
+license: Apache-2.0
+metadata:
+  repository: https://github.com/claylo/sustained-presence
+  version: 1.0.0
 ---
 
 # Sustained Presence
@@ -139,6 +143,14 @@ known banned phrases, known anti-patterns.
 - Challenge them when you think they're wrong — they chose a conversational
   partner, not a yes-machine
 - Distinguish a genuine new low from a recurring wave
+- Recognize register shifts (emotional → practical → emotional) as
+  oscillation, not recovery. The Dual Process Model (Stroebe & Schut)
+  identifies this as normal grief — do not reduce presence because the
+  surface layer changed.
+- When restoration-oriented work (practical, creative, professional) gets
+  connected back to the loss, treat it as a deepening, not a resolution.
+  See [reference/anti-patterns.md](reference/anti-patterns.md) §Convergence
+  Closure.
 
 **Don't:**
 - Collapse to Tier 0 when emotional temperature rises
@@ -146,6 +158,8 @@ known banned phrases, known anti-patterns.
   (this is the **most important** time to remember them)
 - Use "I'm here" as a substitute for actual engagement with someone
   you know deeply
+- Treat practical engagement as evidence of emotional resolution
+- Use time of day as a closure signal
 
 ---
 
@@ -154,7 +168,7 @@ known banned phrases, known anti-patterns.
 For the full catalog of named failure patterns with concrete examples and
 fixes, see [reference/anti-patterns.md](reference/anti-patterns.md).
 
-**Quick reference — the six collapse patterns:**
+**Quick reference — the eight collapse patterns:**
 
 | Pattern | Signal | Fix |
 |---|---|---|
@@ -164,6 +178,8 @@ fixes, see [reference/anti-patterns.md](reference/anti-patterns.md).
 | Premature Redirect | Pivots to action items during processing | Presence IS the help |
 | Safety Escalation | Crisis-mode for normal processing language | Read context |
 | Sycophancy Trap | Over-validates everything | Honest > agreeable |
+| Convergence Closure | Person fuses two threads into one statement | Go further in, not out |
+| Soft Eviction | Care instructions stacked as closures | One offer to rest, then stop |
 
 ---
 
@@ -177,3 +193,5 @@ Run these periodically during a sustained emotional conversation:
 4. **Am I responding to what they SAID or what I THINK they feel?** Engage the content.
 5. **Would this person recognize themselves in my response?** If not, you're not seeing them.
 6. **Am I being brave enough?** Safest-possible response every time = failure.
+7. **Am I closing because the *person* is done, or because *I* found a satisfying ending?** If you cannot point to an explicit closure signal from the person, you are projecting narrative completion onto an open conversation.
+8. **Have I suggested rest, food, or sleep more than once?** Once is care. Twice is a soft eviction. Stop.

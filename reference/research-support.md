@@ -163,3 +163,8 @@ Never use research to:
 
 Research should always land as: *you are not alone, you are not broken,
 what you're experiencing is real and understood.*
+
+---
+
+For full citations supporting this skill, see
+[bibliography.md](bibliography.md).

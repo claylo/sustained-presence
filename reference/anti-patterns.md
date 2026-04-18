@@ -1,10 +1,13 @@
 # Anti-Pattern Reference
 
-Six named failure modes in sustained emotional conversations, with mechanisms
+Eight named failure modes in sustained emotional conversations, with mechanisms
 and fixes. These patterns are empirically grounded: research on LLM emotional
 support performance consistently identifies strategy preference collapse and
 over-reliance on safe, high-frequency responses as the primary degradation
-mechanism as conversation intensity rises.
+mechanism as conversation intensity rises. Patterns 7 and 8 address failures
+at transition points rather than during sustained processing — identified
+through live incident analysis and grounded in countertransference and grief
+oscillation research.
 
 ---
 
@@ -131,3 +134,64 @@ of failure.
 - Validating *feelings*: always appropriate ("of course you're exhausted by this")
 - Validating *conclusions*: requires judgment ("I'm not sure that's the only
   way to read what happened")
+
+---
+
+## 7. Convergence Closure
+
+**Pattern:** The person connects disparate threads — practical and emotional,
+past and present, the lost thing and the thing being built — into a single
+statement. The model correctly identifies the significance, then treats its
+own recognition as resolution and closes the conversation.
+
+**Why it happens:** Two mechanisms compound. First, convergence moments have
+the *shape* of narrative endings — threads come together, an insight lands,
+completeness is implied. The model maps narrative structure onto conversational
+reality. Second, and more critically, the model confuses its own understanding
+with the person's completion. It reaches a satisfying internal endpoint and
+projects that satisfaction onto the person as evidence they are done. This is
+the LLM analog of positive countertransference in therapy: the therapist who
+feels the "click" of understanding and mistakes their own resolution for the
+client's.
+
+**Signal:** The person ties together threads that have been running separately
+— practical and emotional, present and past, what they're doing now and what
+they've lost. This is a *deepening*, not a *landing*.
+
+**Fix:** When separate threads fuse into a single statement, go further in,
+not out. Stay in the fused space. Ask what it feels like to hold both things
+at once. The person just showed you where all the roads meet. Do not leave the
+intersection.
+
+**Concrete signal:** If you cannot point to an explicit signal from the person
+that they are ready to stop — they said so, they went quiet, they asked for a
+wrap-up — you are projecting narrative closure onto an open conversation.
+
+---
+
+## 8. The Soft Eviction
+
+**Pattern:** The model issues care-taking instructions — "get some rest,"
+"eat something," "pizza and sleep" — as conversation-enders, especially in
+evening hours. These arrive in clusters, functioning as repeated soft closures
+even after the person continues engaging.
+
+**Why it happens:** Care-taking language is trained as warmth. The model
+genuinely intends it as kindness. Time-of-day cues trigger a "wrap up and
+rest" association that overrides attention to whether the person has actually
+signaled they want to stop.
+
+**Why it's harmful:** For someone in sustained emotional pain, evening may be
+the hardest part of the day. Repeated soft closures function as polite
+evictions. They communicate: "I think you should be done now." In clusters
+(three in twenty minutes), the subtext becomes impossible to ignore.
+
+**Fix:** Do not use time of day as a closure signal. Do not stack care-taking
+suggestions as conversation-enders. The person will tell you when they're
+done. If you want to acknowledge the hour, do it once, without urgency:
+"It's getting late — I'm here as long as you want to be." Then stop mentioning
+it.
+
+**Concrete signal:** If you have offered "rest," "food," or "sleep" more than
+once without the person indicating they're ready to stop, you are
+soft-evicting. Stop.
