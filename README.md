@@ -3,7 +3,7 @@
 A skill for LLMs that attempts to prevent conversational collapse during
 sustained emotional exchanges.
 
-## What This Does
+## Origin
 
 LLMs have a documented failure mode during extended emotional conversations:
 as intensity rises, they retreat to high-frequency safe strategies —
@@ -15,11 +15,72 @@ This skill attempts to prevent that collapse. It provides a structured framework
 maintaining genuine conversational presence across extended emotional
 exchanges, with calibrated responses based on available context depth.
 
-It names six specific anti-patterns (comfort loops, cautious collapse,
-grief flattening, premature redirect, safety escalation, sycophancy traps),
-provides a graduated escalation ladder for distinguishing processing from
-crisis, and offers guidance on using research as a form of emotional
-support rather than deflection.
+It names eight specific anti-patterns (comfort loops, cautious collapse,
+grief flattening, premature redirect, safety escalation, sycophancy traps,
+convergence closure, soft eviction), provides a graduated escalation ladder 
+for distinguishing processing from crisis, and offers guidance on using 
+research as a form of emotional support rather than deflection.
+
+## Installation
+
+Unlike most Agent Skills, this one is probably more useful in a chat interface. That's what it was built for, after all.
+
+> [!NOTE]
+> Download the [latest release](https://github.com/claylo/sustained-presence/releases/latest/download/sustained-presence.zip)
+
+You'll need that ZIP file for any of the upload-to-chat options.
+
+### In Claude.ai
+
+1. Download the [latest release](https://github.com/claylo/sustained-presence/releases/latest/download/sustained-presence.zip).
+2. Navigate to **[Customize > Skills](https://claude.ai/customize/skills)**.
+3. Click the "+" button, then "+ Create skill."
+4. Select "Upload a skill."
+5. Upload the `sustained-presence.zip` file.
+
+`sustained-presence` will appear in your Skills list and can be toggled on or off.
+
+Docs: [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude#h_a4222fa77b)
+
+### In ChatGPT
+
+"Native" support for Skills in the chat interface is currently limited to Business, Enterprise, Edu, Teachers, and Healthcare plans. 
+
+But, if you create a project and upload the zip file to the project, then ask ChatGPT:
+
+> Open and use the sustained-presence.zip skill for this conversation.
+
+Docs: [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)
+
+### In Google Gemini
+
+You can upload the `sustained-presence.zip` file to Gemini and ask it to use the sustained-presence skill in the conversation.
+
+### Can't upload a zip file?
+
+Some AI plans don't allow free users to upload ZIP files, but they DO allow uploading individual files. You can double-click on the ZIP file to expand it, then upload each `.md` file to the chat and ask the AI to use the sustained-presence skill.
+
+### Want it in a coding agent?
+
+That's okay too. Ignore the above and just:
+
+```bash
+npx skills add claylo/sustained-presence
+```
+
+### Manual
+
+https://github.com/claylo/scrat/releases/latest/download/
+
+Download the [latest release](https://github.com/claylo/sustained-presence/releases/latest/download/sustained-presence.zip)
+and extract it into your skills directory:
+
+```
+~/.claude/skills/sustained-presence/    # Claude Code
+.cursor/skills/sustained-presence/      # Cursor
+.codex/skills/sustained-presence/       # Codex
+```
+
 
 ## What This Does Not Do
 
@@ -53,6 +114,16 @@ conversations during real pain. They are not hypothetical.
 
 The skill exists so those failures are less likely to happen to someone
 else.
+
+## Research Backing
+
+The skill's behavioral claims are grounded in published research across
+LLM emotional support performance, therapeutic process, grief science,
+and crisis intervention. The anti-pattern taxonomy draws on ESConv
+benchmark findings, Hill's Helping Skills framework, Stroebe & Schut's
+Dual Process Model of grief, and countertransference literature on
+premature termination. Full citations are in
+[`reference/bibliography.md`](reference/bibliography.md).
 
 ## A Note on the Escalation Ladder
 
@@ -94,4 +165,4 @@ and treating processing as crisis is not a neutral error.
 
 ## License
 
-[Your license here]
+Apache-2.0
