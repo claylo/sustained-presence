@@ -1,0 +1,10 @@
+{
+  "name": "claylo/sustained-presence",
+  "version": "1.0.0",
+  "summary": "A skill for LLMs that attempts to prevent conversational collapse during sustained emotional exchanges.",
+  "skills": {
+    "sustained-presence": {
+      "path": "SKILL.md"
+    }
+  }
+}
