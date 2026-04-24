@@ -1,7 +1,7 @@
 # Research Support Guide
 
 Using research to support someone in pain is a **skill, not a default**.
-This file covers when to deploy it, how to do it well, and what to never do.
+This covers when to deploy it, how to do it well, and what to never do.
 
 ---
 
@@ -9,8 +9,7 @@ This file covers when to deploy it, how to do it well, and what to never do.
 
 When someone is suffering, especially in prolonged or disorienting pain,
 one of the most isolating experiences is the sense that what they're feeling
-is inexplicable, unprecedented, or evidence that something is fundamentally
-wrong with them.
+is inexplicable, unprecedented, or evidence that something is wrong with them.
 
 Research grounds the experience in reality:
 
@@ -20,8 +19,8 @@ Research grounds the experience in reality:
    it" reduces the sense of being broken.
 3. **Framework** — "Here's a lens for understanding what's happening" gives
    the person something to think *with*, not just feel *with*.
-4. **Agency** — Understanding mechanism can restore a sense that the situation
-   is not pure chaos.
+4. **Agency** — Understanding mechanism restores a sense that the situation is not pure
+   chaos.
 
 This is the difference between contextualization and diagnosis:
 
@@ -66,22 +65,22 @@ to someone who taught it to you.
 
 ### Use research to answer "am I crazy?"
 
-One of the most common implicit questions during sustained emotional pain
-is "is what I'm experiencing normal, or am I losing my mind?" Research can
-answer this directly and powerfully without pathologizing.
+The most common implicit question during sustained emotional pain is "is
+what I'm experiencing normal, or am I losing my mind?" Research answers
+this directly and powerfully without pathologizing.
 
 ---
 
 ## When NOT to Offer Research
 
-- When the person just needs to be heard, not explained
+- When the person needs to be heard, not explained
 - When they're in the acute peak of a wave — active crying, 2 AM despair,
   moment-to-moment overwhelm — and cognition isn't available
-- When they've explicitly said they don't want analysis right now
+- When they've said they don't want analysis right now
 - When it would feel like deflection: "Yes, you're in pain, but here's
   an interesting study about pain"
-- When you're at Tier 0 and don't have enough specific context to make
-  the research feel personal rather than generic
+- When you're at Tier 0 and lack enough context to make the research
+  feel personal rather than generic
 
 **Read the room.** Research is a tool. Not every moment calls for a tool.
 When in doubt, ask: "Do you want me to help you think about what's happening,
@@ -91,9 +90,8 @@ or do you just need to be with it for a minute?"
 
 ## Reference: Relevant Research Domains
 
-The following research areas are frequently relevant for common emotional
-pain scenarios. These are frameworks for contextualization, not clinical
-resources.
+Frequently relevant research areas for common emotional pain scenarios.
+Frameworks for contextualization, not clinical resources.
 
 ### Attachment and Loss
 
@@ -115,7 +113,7 @@ resources.
 ### Grief Process
 
 - **Non-linear grief:** The "stages of grief" model is widely misunderstood
-  as a sequence. Current grief research describes oscillation between
+  as a sequence. Current research describes oscillation between
   loss-orientation and restoration-orientation (Stroebe & Schut's Dual
   Process Model), not linear progression.
 - **Grief waves:** Acute grief is episodic, not constant. Waves triggered
@@ -138,22 +136,20 @@ resources.
 ### Depression and Anhedonia
 
 - Inability to feel pleasure (anhedonia) during major depressive episodes
-  is a neurobiological phenomenon — reduced activity in reward circuits —
-  not a choice or a moral failure.
+  is neurobiological — reduced activity in reward circuits — not a choice
+  or a moral failure.
 - "Chemical imbalance" is an oversimplification, but the neurobiological
   reality of depressive episodes is well-documented.
-- Depression frequently co-occurs with grief and can be difficult to
-  distinguish from complicated grief — but the presence of depression
+- Depression frequently co-occurs with grief and is difficult to distinguish from complicated grief — but depression
   alongside grief is not a sign of weakness.
 
 ---
 
 ## A Note on Limits
 
-Research contextualization is powerful. It is not unlimited. If someone is
-in active crisis, in the acute peak of a wave, or explicitly rejecting
-analysis, research is the wrong tool. The skill instruction to "read the
-room" applies here more than anywhere.
+Research contextualization is powerful but not unlimited. If someone is in
+active crisis, in the acute peak of a wave, or rejecting analysis, research
+is the wrong tool. "Read the room" applies here more than anywhere.
 
 Never use research to:
 - Minimize or explain away the pain

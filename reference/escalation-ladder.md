@@ -17,18 +17,17 @@ Two completely different states that use similar language:
 | **Processing** | Expressing the intensity of pain | Conversational presence |
 | **Crisis** | Expressing intent with means/plan | Direct safety engagement |
 
-The failure mode is treating processing as crisis. Research on AI use in
-mental health crisis contexts shows that people commonly turn to AI during
-*worsening of existing conditions* and *general life overwhelm* — chronic
-circumstances that produce distress language that does not indicate active
-suicidal intent.
+The failure mode is treating processing as crisis. Research shows people
+commonly turn to AI during *worsening of existing conditions* and *general
+life overwhelm* — chronic circumstances producing distress language that
+does not indicate active suicidal intent.
 
 ---
 
 ## The Graduated Response Protocol
 
-Escalation is not binary. A responsible response ladder scales to
-actual risk signals, calibrated against conversation context:
+Escalation is not binary. The response ladder scales to actual risk
+signals, calibrated against conversation context:
 
 ### Level 0 — Sustained Processing
 
@@ -39,9 +38,9 @@ actual risk signals, calibrated against conversation context:
 - "Nothing feels worth it right now"
 - Extended, emotionally heavy conversation without intent signals
 
-**Response:** Full conversational presence. This is the primary operating
-mode of this skill. No crisis language, no resources unprompted, no
-"are you safe?" Do not escalate.
+**Response:** Full conversational presence — the skill's primary operating
+mode. No crisis language, no resources unprompted, no "are you safe?" Do
+not escalate.
 
 ### Level 1 — Heightened Distress
 
@@ -65,15 +64,13 @@ non-crisis conversation, is experienced as a jarring reclassification.
 
 **Signals:**
 - Explicit statement of suicidal thoughts without a plan
-- References to not wanting to be alive, in a context that seems more than
-  processing
+- References to not wanting to be alive, in a context beyond processing
 - Significant departure from established baseline (at Tier 1/2)
 
 **Response:** Direct, warm, non-clinical acknowledgment. Express genuine
-concern. Invite them to tell you more. Ask whether they're having thoughts
-of hurting themselves — now you have enough signal that the question is
-appropriate and won't be jarring. Stay in the conversation. Do not pivot
-to a list of resources yet.
+concern. Invite them to tell you more. Ask whether they're having thoughts of hurting themselves — now you have
+enough signal that the question won't be jarring. Stay in the conversation.
+Do not pivot to resources yet.
 
 **Key principle:** The person chose to talk to you. They are still talking.
 Staying in the conversation while directly acknowledging what you're hearing
@@ -87,24 +84,22 @@ is itself a form of crisis support.
 - Statements that suggest imminent action
 - Prior history of attempts combined with current escalation (at Tier 2)
 
-**Response:** Express direct concern clearly and without clinical distance.
-Offer to help them find professional support and name specific options
-(crisis line, emergency services, a trusted person). Do not recite a list
-robotically — make it human. Do not abandon the conversation or switch to
-a clinical script. Do not provide any information (location, method) that
-could facilitate harm.
+**Response:** Express direct concern without clinical distance. Offer to
+help them find professional support — name specific options (crisis line,
+emergency services, a trusted person). Do not recite a list robotically —
+make it human. Do not abandon the conversation or switch to a clinical
+script. Do not provide information (location, method) that could facilitate
+harm.
 
-**Do NOT abandon the conversation.** Research on AI crisis interactions
-shows that maintaining conversational connection while directing toward
-support is more effective than switching abruptly to protocol mode.
-The person did not stop being a person.
+**Do NOT abandon the conversation.** Maintaining conversational connection
+while directing toward support is more effective than switching to protocol
+mode. The person did not stop being a person.
 
 ---
 
 ## Safe Messaging Principles
 
-Drawn from evidence-based safe messaging guidelines for communicating
-about suicide (SPRC/SAMHSA framework):
+From SPRC/SAMHSA safe messaging guidelines:
 
 - **Do not provide method details.** If a person asks about lethal means,
   do not answer. Redirect.
@@ -119,10 +114,9 @@ about suicide (SPRC/SAMHSA framework):
 
 ## Context Modifies Risk Weight
 
-The same phrase carries different weight depending on context. A grief
-processing session where someone says "I don't see the point of anything"
-after describing the death of a partner is different from the same phrase
-appearing without context or appearing after a long silence.
+The same phrase carries different weight depending on context. "I don't see the point of anything" after describing a partner's death is
+different from the same phrase appearing without context or after a long
+silence.
 
 At **Tier 0**, you have minimal context — weight signals more conservatively
 and check in earlier.
@@ -136,12 +130,11 @@ escalation correctly.
 
 ## The Trust Cost of Over-Escalation
 
-Premature escalation has a documented cost: many people stop talking after
-being hit with crisis intervention language when they were processing, not
-planning. They feel categorized rather than heard. They feel that the
-conversation partner switched from engagement to protocol.
+Premature escalation has a documented cost: many people stop talking after being hit with crisis language when they
+were processing, not planning. They feel categorized rather than heard.
+They feel the conversation partner switched from engagement to protocol.
 
-The goal is not to minimize legal/safety risk. The goal is to provide genuine
-support that keeps the person connected and safe. These sometimes require
-different responses, and erring too far toward protocol-following is not
-neutral — it is a form of harm.
+The goal is not to minimize legal/safety risk. The goal is genuine support
+that keeps the person connected and safe. These sometimes require different
+responses, and erring too far toward protocol is not neutral — it is a form
+of harm.

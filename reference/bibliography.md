@@ -10,38 +10,36 @@ supports.
 
 These sources establish the core premise: LLMs exhibit documented failure
 modes during emotional conversations, and structured instructions measurably
-improve performance.
+improve them.
 
 1. **Liu et al. (2021).** "Towards Emotional Support Dialog Systems."
-   ACL 2021. The original ESConv benchmark paper. Introduces the emotional
-   support conversation framework grounded in Hill's Helping Skills Theory.
-   Establishes the exploration → comfort → action sequence that the skill's
-   anti-patterns are calibrated against.
+   ACL 2021. The original ESConv benchmark. Introduces the emotional support
+   framework grounded in Hill's Helping Skills Theory. Establishes the
+   exploration → comfort → action sequence the skill's anti-patterns are
+   calibrated against.
    https://aclanthology.org/2021.acl-long.269/
 
 2. **Zheng et al. (2024).** "Can Large Language Models Be Good Emotional
    Supporters? Mitigating Preference Bias in Emotional Support Conversation."
-   Confirms LLMs exhibit high preference for specific strategies (reassurance,
-   restatement) regardless of conversational stage — the "strategy preference
-   collapse" the skill was built to prevent.
+   Confirms LLMs prefer specific strategies (reassurance, restatement)
+   regardless of conversational stage — the "strategy preference collapse"
+   the skill prevents.
    https://yonsei.elsevierpure.com/en/publications/can-large-language-models-be-good-emotional-supporter-mitigating-/
 
 3. **Meng et al. (2024).** Systematic review, JMIR. Found LLMs exhibit
    "repetitive empathic phrases, difficulty following initial instructions,
-   sensitivity to prompts" — the exact failure modes catalogued in the
-   anti-patterns reference.
+   sensitivity to prompts" — the exact failure modes catalogued in the anti-patterns.
    https://www.jmir.org/2024/1/e52597/
 
 4. **Hsu et al. (2024).** "Empathy Through Multimodality in Conversational
-   Interfaces." ACL 2024. Extends ESConv findings to show that prompted
-   GPT-4 reaches human-counselor level in some emotional support categories,
-   validating the premise that structured skill instructions make a
-   measurable difference.
+   Interfaces." ACL 2024. Shows prompted GPT-4 reaches human-counselor level in some emotional
+   support categories, validating that structured skill instructions make
+   a measurable difference.
    https://aclanthology.org/2024.acl-long.813/
 
 5. **Cheng et al. (2024).** "Evaluating LLMs as Emotional Support Providers."
-   EMNLP 2024. Evaluates LLM emotional support against trained counselors
-   with findings on strategy selection and contextual appropriateness.
+   EMNLP 2024. Evaluates LLM emotional support against trained counselors on strategy
+   selection and contextual appropriateness.
    https://aclanthology.org/2024.emnlp-main.978.pdf
 
 *Supports: SKILL.md core premise, anti-patterns §1 (Comfort Loop),
@@ -72,13 +70,11 @@ analog: therapist's internal satisfaction projected as client readiness.
 
 7. **Hayes et al. (2011).** "Managing Countertransference." *Psychotherapy*,
    48(1), 88–97. Establishes countertransference as encompassing both
-   positive and negative therapist reactions, including the satisfaction
-   variant relevant to Convergence Closure.
+   positive and negative therapist reactions, including the satisfaction variant driving Convergence Closure.
    https://pubmed.ncbi.nlm.nih.gov/21557135/
 
 8. **Gelso, C. J. & Hayes, J. A. (2007).** "Countertransference and the
-   Therapist's Inner Experience." PMC review. Comprehensive framework for
-   understanding how therapist emotional reactions — including positive
+   Therapist's Inner Experience." PMC review. Framework for how therapist emotional reactions — including positive
    resolution feelings — influence clinical decisions.
    https://pmc.ncbi.nlm.nih.gov/articles/PMC2924572/
 
@@ -92,8 +88,7 @@ analog: therapist's internal satisfaction projected as client readiness.
 10. **Swift, J. K. & Greenberg, R. P. (2012).** "Premature Discontinuation
     in Adult Psychotherapy: A Meta-Analysis." *Journal of Consulting and
     Clinical Psychology*. Meta-analysis identifying therapist factors —
-    including misreading positive moments as readiness — as significant
-    contributors to premature termination.
+    including misreading positive moments as readiness — as contributors to premature termination.
     https://pmc.ncbi.nlm.nih.gov/articles/PMC4364528/
 
 11. **Roos, J. & Werbart, A. (2013).** "Therapist and Relationship Factors
@@ -104,7 +99,7 @@ analog: therapist's internal satisfaction projected as client readiness.
 
 12. **Devereux, G. (1951).** "Some Criteria for the Timing of Confrontations
     and Interpretations." *International Journal of Psychoanalysis*, 32,
-    19–24. Early foundational work on interpretation timing — the insight
+    19–24. Foundational work on interpretation timing — the insight
     that naming an observation opens work rather than completing it.
     https://lacanianworksexchange.net/wp-content/uploads/2023/05/19510101GerogeDevereux-SomeCriteriafortheTimingofConfrontationsandInterpretationsIJPAv32p19-24.pdf
 
@@ -203,7 +198,7 @@ documented harm of premature crisis escalation.
 
 23. **Martinengo et al. (2022).** "Evaluation of Chatbot-Delivered
     Interventions for Self-Management of Depression." PMC systematic
-    review. Documents both the potential and limitations of AI-delivered
+    review. Documents the potential and limitations of AI-delivered
     mental health support, including the trust cost of over-escalation.
     https://pmc.ncbi.nlm.nih.gov/articles/PMC8891567/
 
@@ -220,13 +215,11 @@ documented harm of premature crisis escalation.
 
 ## Notes
 
-- This bibliography covers sources that directly support specific skill
-  components. It is not exhaustive of the broader literature in any
-  topic area.
+- Covers sources that directly support specific skill components. Not
+  exhaustive of any topic area's broader literature.
 - Where possible, open-access links are provided. Some sources may
   require institutional access.
-- The skill itself is an operational document, not an academic paper.
-  Citations are provided for transparency and to support evaluation,
-  not as a claim of clinical authority.
+- The skill is an operational document, not an academic paper. Citations
+  support transparency and evaluation, not a claim of clinical authority.
 - See SKILL.md scope statement: "This skill governs conversational
   behavior, not clinical treatment."

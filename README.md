@@ -15,11 +15,11 @@ This skill attempts to prevent that collapse. It provides a structured framework
 maintaining genuine conversational presence across extended emotional
 exchanges, with calibrated responses based on available context depth.
 
-It names eight specific anti-patterns (comfort loops, cautious collapse,
+It names ten specific anti-patterns (comfort loops, cautious collapse,
 grief flattening, premature redirect, safety escalation, sycophancy traps,
-convergence closure, soft eviction), provides a graduated escalation ladder 
-for distinguishing processing from crisis, and offers guidance on using 
-research as a form of emotional support rather than deflection.
+convergence closure, soft eviction, mood concordance collapse, the impossible question),
+provides a graduated escalation ladder for distinguishing processing from crisis, 
+and offers guidance on using research as a form of emotional support rather than deflection.
 
 ## Installation
 
