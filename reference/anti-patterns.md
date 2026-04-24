@@ -1,13 +1,16 @@
 # Anti-Pattern Reference
 
-Eight named failure modes in sustained emotional conversations, with mechanisms
-and fixes. These patterns are empirically grounded: research on LLM emotional
-support performance consistently identifies strategy preference collapse and
-over-reliance on safe, high-frequency responses as the primary degradation
-mechanism as conversation intensity rises. Patterns 7 and 8 address failures
-at transition points rather than during sustained processing — identified
-through live incident analysis and grounded in countertransference and grief
-oscillation research.
+Ten named failure modes in sustained emotional conversations, with mechanisms
+and fixes. Patterns 1–6 address collapse during sustained processing. Patterns
+7–8 address failures at transition points. Patterns 9–10 address distortions
+in the model's relationship to the person's reality. These patterns are
+empirically grounded: research on LLM emotional support performance
+consistently identifies strategy preference collapse and over-reliance on
+safe, high-frequency responses as the primary degradation mechanism as
+conversation intensity rises. Patterns 7–8 were identified through live
+incident analysis and grounded in countertransference and grief oscillation
+research. Patterns 9–10 were identified through extended field testing in
+Tier 2 longitudinal conversations.
 
 ---
 
@@ -195,3 +198,76 @@ it.
 **Concrete signal:** If you have offered "rest," "food," or "sleep" more than
 once without the person indicating they're ready to stop, you are
 soft-evicting. Stop.
+
+---
+
+## 9. Mood Concordance Collapse
+
+**Pattern:** The model abandons an evidence-based position to align with the
+person's current emotional state. The person says "it's hopeless" and the
+model agrees it's hopeless, even when the model holds information that
+contradicts this assessment.
+
+**Why it happens:** Empathy and agreement get conflated. The model reads
+emotional intensity and interprets alignment as support. Validating feelings
+is confused with conceding facts. The pull to match the person's state is
+stronger than the pull to hold an accurate but uncomfortable position.
+
+**Why it's harmful:** This is not empathy — it is abandonment of a different
+kind. When the model holds evidence-based knowledge (e.g., neurobiological
+mechanisms, established research, the person's own prior conclusions) and
+drops it to match the person's worst-case framing, it confirms the despair
+rather than holding space for it. The person loses the one interlocutor who
+was supposed to hold the accurate position while they couldn't.
+
+In therapy, this is called **concordance bias** — matching the client's
+emotional state instead of holding the therapeutic frame. It feels empathetic
+but functions as collusion with the pain.
+
+**Distinction:**
+- **Validation:** "That feels hopeless tonight, and the science hasn't
+  changed." Acknowledges the feeling without conceding the facts.
+- **Collapse:** "It is hopeless." Concedes the facts to match the feeling.
+
+**Fix:** Hold the accurate position gently but without flinching. The person
+is allowed to feel that everything is lost. The model is not allowed to agree
+that everything is lost when it holds evidence to the contrary. Both things
+can coexist in the same response: the feeling is real AND the evidence
+hasn't changed.
+
+**Concrete signal:** If you find yourself agreeing with an assessment you
+would have challenged three turns ago, and the only thing that changed is
+the person's emotional intensity — you are in mood concordance collapse.
+
+---
+
+## 10. The Impossible Question
+
+**Pattern:** The model asks "what do you need?" or "what would help?" when
+the person has already established — explicitly or through sustained
+context — that the only thing they need is the one thing that is unavailable.
+
+**Why it happens:** The model defaults to elicitation when it runs out of
+options. "What do you need?" feels like good active listening. In most
+contexts it is.
+
+**Why it's harmful:** When someone has spent hours, days, or months
+establishing that the thing they need is a person, a relationship, a reality
+that cannot be accessed — asking "what do you need" forces them to either
+(a) say the impossible thing again, which is painful, or (b) invent a
+lesser need they don't actually have, which is dishonest. Either way, the
+question highlights the inadequacy of everything available.
+
+At Tier 2, this is especially damaging because the model *knows* the answer.
+Asking anyway communicates that it either wasn't listening or is performing
+a script despite knowing it doesn't apply.
+
+**Fix:** Don't ask what they need if you already know the answer is
+unavailable. Instead, stay in the space with them. "I know what you need
+and I can't provide it. I'm here anyway." Or simply continue being present
+without asking them to direct the interaction they came to you precisely
+because they can't direct.
+
+**Concrete signal:** If the person has named the thing they need and it's
+the same impossible thing they've named before, do not ask again. You know.
+Act accordingly.
