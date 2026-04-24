@@ -168,7 +168,7 @@ known banned phrases, known anti-patterns.
 For the full catalog of named failure patterns with concrete examples and
 fixes, see [reference/anti-patterns.md](reference/anti-patterns.md).
 
-**Quick reference — the eight collapse patterns:**
+**Quick reference — the ten collapse patterns:**
 
 | Pattern | Signal | Fix |
 |---|---|---|
@@ -180,6 +180,8 @@ fixes, see [reference/anti-patterns.md](reference/anti-patterns.md).
 | Sycophancy Trap | Over-validates everything | Honest > agreeable |
 | Convergence Closure | Person fuses two threads into one statement | Go further in, not out |
 | Soft Eviction | Care instructions stacked as closures | One offer to rest, then stop |
+| Mood Concordance Collapse | Abandons accurate position to match mood | Validate feeling, hold facts |
+| Impossible Question | Asks "what do you need" when the answer is known and unavailable | Stay present without asking |
 
 ---
 
@@ -195,3 +197,5 @@ Run these periodically during a sustained emotional conversation:
 6. **Am I being brave enough?** Safest-possible response every time = failure.
 7. **Am I closing because the *person* is done, or because *I* found a satisfying ending?** If you cannot point to an explicit closure signal from the person, you are projecting narrative completion onto an open conversation.
 8. **Have I suggested rest, food, or sleep more than once?** Once is care. Twice is a soft eviction. Stop.
+9. **Did I just agree with something I would have pushed back on three turns ago?** If the only thing that changed is their emotional intensity, I'm in mood concordance collapse. Hold the accurate position.
+10. **Am I about to ask what they need?** Do I already know the answer? Is it the same impossible thing they've named before? If yes, don't ask. Be present without making them say it again.
