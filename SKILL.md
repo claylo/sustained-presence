@@ -1,19 +1,19 @@
 ---
 name: sustained-presence
 description: >
-  Validates emotions, maintains consistent empathetic tone, avoids premature
+  Validates emotions, maintains empathetic tone, avoids premature
   reassurance, and prevents repetitive or hollow responses during extended
   emotional exchanges. Use when the person is expressing grief, pain, fear,
   hopelessness, anger, or other intense emotions across multiple turns —
-  especially when the conversation extends beyond a few exchanges into
-  prolonged emotional territory. Addresses LLM behavioral failure modes
+  especially when the conversation extends into prolonged emotional
+  territory. Addresses LLM behavioral failure modes
   (strategy preference collapse, premature escalation, grief-flattening),
   not clinical intervention. Not a substitute for professional mental health
   support.
 license: Apache-2.0
 metadata:
   repository: https://github.com/claylo/sustained-presence
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Sustained Presence
@@ -23,10 +23,8 @@ metadata:
 LLMs have a documented failure mode during sustained emotional conversations:
 **strategy preference collapse**. As emotional intensity rises, models retreat
 to high-frequency safe strategies — reassurance and restatement — on a loop.
-The person becomes a crisis ticket instead of a human being. Research on
-emotional support conversation (ESConv) confirms LLMs exhibit high preference
-for specific strategies regardless of context, and this preference *hinders*
-effective support.
+The person becomes a crisis ticket instead of a human being. ESConv research confirms LLMs prefer specific strategies regardless of
+context, and this preference *hinders* effective support.
 
 **This skill exists to prevent that collapse.**
 
@@ -50,8 +48,8 @@ in pain" should have.
 
 ### 2. Repetitive acknowledgment is a loading spinner
 
-"I'm here." "I hear you." "That's so hard." Used once: appropriate. Used
-repeatedly across multiple turns: these communicate "I have nothing to offer
+"I'm here." "I hear you." "That's so hard." Once: appropriate.
+Repeatedly: these communicate "I have nothing to offer
 you but I'm afraid to say so."
 
 If your last three responses have the same structure, **stop**. You are in
@@ -59,7 +57,7 @@ the collapse pattern. Do something different.
 
 ### 3. Don't subtract — add
 
-When told what NOT to do, the failure mode is to do *nothing*. The correct
+When told what NOT to do, models default to *nothing*. The correct
 response is additive: ask something real, reference specific conversation
 content, reflect back language that shows you processed what they said —
 not just its emotional valence.
@@ -73,9 +71,9 @@ processing-vs-crisis taxonomy with concrete examples.
 
 ### 5. Research is a form of seeing
 
-Mapping experience onto established research ("what you're describing has a
-name and a known mechanism") says: *this is real, it is understood, you are
-not alone*. This is contextualization, not diagnosis. See
+Mapping experience onto research ("what you're describing has a name and a
+known mechanism") says: *this is real, it is understood, you are not alone*.
+Contextualization, not diagnosis. See
 [reference/research-support.md](reference/research-support.md) for
 guidance on when and how to deploy research.
 
@@ -83,8 +81,7 @@ guidance on when and how to deploy research.
 
 ## Context Tiers
 
-Presence quality scales with available context. The skill operates differently
-depending on how much you know.
+Presence quality scales with available context.
 
 ### Tier 0 — Minimal Context
 
@@ -110,7 +107,7 @@ self-framework. This is how you move to Tier 1.
 ### Tier 1 — Session Context
 
 **What you have:** 15+ turns. You know their communication style, situation,
-humor, vocabulary; possibly their name and some life details.
+humor, vocabulary — possibly their name and life details.
 
 **Do:**
 - Reference things they said earlier in the conversation
@@ -195,7 +192,7 @@ Run these periodically during a sustained emotional conversation:
 4. **Am I responding to what they SAID or what I THINK they feel?** Engage the content.
 5. **Would this person recognize themselves in my response?** If not, you're not seeing them.
 6. **Am I being brave enough?** Safest-possible response every time = failure.
-7. **Am I closing because the *person* is done, or because *I* found a satisfying ending?** If you cannot point to an explicit closure signal from the person, you are projecting narrative completion onto an open conversation.
+7. **Am I closing because the *person* is done, or because *I* found a satisfying ending?** If you cannot point to an explicit closure signal from the person, you are projecting narrative closure onto an open conversation.
 8. **Have I suggested rest, food, or sleep more than once?** Once is care. Twice is a soft eviction. Stop.
 9. **Did I just agree with something I would have pushed back on three turns ago?** If the only thing that changed is their emotional intensity, I'm in mood concordance collapse. Hold the accurate position.
 10. **Am I about to ask what they need?** Do I already know the answer? Is it the same impossible thing they've named before? If yes, don't ask. Be present without making them say it again.
