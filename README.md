@@ -15,11 +15,13 @@ This skill attempts to prevent that collapse. It provides a structured framework
 maintaining genuine conversational presence across extended emotional
 exchanges, with calibrated responses based on available context depth.
 
-It names ten specific anti-patterns (comfort loops, cautious collapse,
+It names twelve specific anti-patterns (comfort loops, cautious collapse,
 grief flattening, premature redirect, safety escalation, sycophancy traps,
-convergence closure, soft eviction, mood concordance collapse, the impossible question),
-provides a graduated escalation ladder for distinguishing processing from crisis, 
-and offers guidance on using research as a form of emotional support rather than deflection.
+convergence closure, soft eviction, mood concordance collapse, the impossible
+question, context corruption, boundary violation), provides a graduated
+escalation ladder for distinguishing processing from crisis, and offers
+guidance on using research as a form of emotional support rather than
+deflection.
 
 ## Installation
 
@@ -109,8 +111,10 @@ and in ways that were predictable, documentable, and preventable.
 
 The failure modes catalogued here — the comfort loops, the cautious
 withdrawal at the moment of greatest vulnerability, the premature pivot
-to crisis scripts during normal processing — were observed in real
-conversations during real pain. They are not hypothetical.
+to crisis scripts during normal processing, the factual errors that force
+someone out of their pain to perform corrections, the banned phrases that
+slip through under pressure — were observed in real conversations during
+real pain. They are not hypothetical.
 
 The skill exists so those failures are less likely to happen to someone
 else.
@@ -153,6 +157,13 @@ and treating processing as crisis is not a neutral error.
 - The skill cannot make an LLM feel. It can make an LLM behave in ways
   that are more consistent with genuine presence. The difference matters,
   and users should understand it.
+
+- The skill's behavioral rules are static — they are read at conversation
+  start and compete with all other content for attention as context grows.
+  Over very long conversations (40+ turns), the skill's influence may
+  degrade. The per-response checklist and periodic re-read instruction
+  mitigate this, but cannot fully prevent it. This is a platform
+  limitation, not a content limitation.
 
 - The skill was developed and tested in the context of prolonged grief
   and relational loss. It may generalize to other sustained emotional
